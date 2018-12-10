@@ -443,8 +443,7 @@ for clf in [clf_A, clf_B, clf_C]:
 
 # Run metrics visualization for the three supervised learning models chosen
 vs.evaluate(results, accuracy, fscore)
-/Users/robertyoung/anaconda/lib/python2.7/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
+
 SVC trained on 361 samples.
 SVC trained on 3617 samples.
 SVC trained on 36177 samples.
