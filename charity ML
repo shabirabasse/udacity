@@ -181,8 +181,7 @@ print("Training set has {} samples.".format(X_train.shape[0]))
 print("Testing set has {} samples.".format(X_test.shape[0]))
 Training set has 36177 samples.
 Testing set has 9045 samples.
-/Users/robertyoung/anaconda/lib/python2.7/site-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
-  "This module will be removed in 0.20.", DeprecationWarning)
+
 Evaluating Model Performance
 In this section, we will investigate four different algorithms, and determine which is best at modeling the data. Three of these algorithms will be supervised learners of your choice, and the fourth algorithm is known as a naive predictor.
 
@@ -309,7 +308,8 @@ K Nearest Neighbour:
 
 One real world application:
 
-KNN can be used to provide recommendations. A real world example of this would be video streaming services such as Netflix or Amazon Prime. If a given user likes an item in the library, similar items that they may like, but are unaware of can be recommended to them by using data from other users and their likes. If it is seen that a similar set of users like two different items, these items are probably similar and to each the respective users taste, and worthy of a recommendation.
+KNN can be used to provide recommendations. A real world example of this would be video streaming services such as Netflix or Amazon Prime. If a given 
+likes an item in the library, similar items that they may like, but are unaware of can be recommended to them by using data from others and their likes. If it is seen that a similar set of users like two different items, these items are probably similar and to each the respective users taste, and worthy of a recommendation.
 Strengths of the model:
 
 Easy to understand and implement - not much code is required. [5]
