@@ -139,8 +139,7 @@ for col in data.columns:
 # TODO: Report the score of the prediction using the testing set
     score = regressor.score(X_test,y_test)
     print col, score
-C:\Users\swapk\AppData\Local\conda\conda\envs\py27\lib\site-packages\sklearn\cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
-  "This module will be removed in 0.20.", DeprecationWarning)
+
 Fresh -0.385749710204
 Milk 0.156275395017
 Grocery 0.681884008544
@@ -182,7 +181,6 @@ To get a better understanding of the dataset, we can construct a scatter matrix 
 In [8]:
 # Produce a scatter matrix for each pair of features in the data
 pd.scatter_matrix(data, alpha = 0.3, figsize = (14,8), diagonal = 'kde');
-C:\Users\swapk\AppData\Local\conda\conda\envs\py27\lib\site-packages\ipykernel_launcher.py:2: FutureWarning: pandas.scatter_matrix is deprecated. Use pandas.plotting.scatter_matrix instead
   
 
 Question 3
@@ -233,7 +231,6 @@ log_samples = np.log(samples)
 
 # Produce a scatter matrix for each pair of newly-transformed features
 pd.scatter_matrix(log_data, alpha = 0.3, figsize = (14,8), diagonal = 'kde');
-C:\Users\swapk\AppData\Local\conda\conda\envs\py27\lib\site-packages\ipykernel_launcher.py:8: FutureWarning: pandas.scatter_matrix is deprecated. Use pandas.plotting.scatter_matrix instead
   
 
 Observation
